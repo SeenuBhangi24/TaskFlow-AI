@@ -1,0 +1,39 @@
+# ======================
+# Dependencies
+# ======================
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ======================
+# Environment Variables
+# ======================
+.env
+frontend/.env
+backend/.env
+
+# ======================
+# Build Files
+# ======================
+dist/
+frontend/dist/
+backend/dist/
+
+# ======================
+# Log Files
+# ======================
+*.log
+npm-debug.log*
+
+# ======================
+# IDE Files
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Operating System Files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
