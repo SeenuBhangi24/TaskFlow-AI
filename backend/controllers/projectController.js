@@ -103,6 +103,13 @@ const updateProject = async (req, res) => {
     // Find project
     const project = await Project.findById(id);
 
+    // Check Ownership
+    if (project.owner.toString() !== req.user.id) {
+      return res.status(403).json({
+        message: "Access Denied",
+      });
+    }
+
     // Check project exists
     if (!project) {
       return res.status(404).json({
@@ -143,6 +150,14 @@ const deleteProject = async (req, res) => {
 
     // Find project
     const project = await Project.findById(id);
+
+    
+    // Check Ownership
+    if (project.owner.toString() !== req.user.id) {
+      return res.status(403).json({
+        message: "Access Denied",
+      });
+    }
 
     // Check project exists
     if (!project) {

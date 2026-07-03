@@ -1,0 +1,85 @@
+/* ============================== */
+/* Profile Page */
+/* ============================== */
+
+.profile-subtitle {
+
+    color: #666;
+
+    margin-bottom: 25px;
+
+}
+
+/* ============================== */
+/* Profile Card */
+/* ============================== */
+
+.profile-card {
+
+    background: #ffffff;
+
+    max-width: 600px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+/* ============================== */
+/* Profile Item */
+/* ============================== */
+
+.profile-item {
+
+    margin-bottom: 25px;
+
+}
+
+.profile-item h3 {
+
+    color: #333;
+
+    margin-bottom: 8px;
+
+}
+
+.profile-item p {
+
+    color: #666;
+
+    font-size: 17px;
+
+}
+
+/* ============================== */
+/* Logout Button */
+/* ============================== */
+
+.logout-btn {
+
+    background: #ef4444;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+
+}
+
+.logout-btn:hover {
+
+    background: #dc2626;
+
+}

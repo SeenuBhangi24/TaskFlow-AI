@@ -1,0 +1,109 @@
+/* Sidebar */
+
+.sidebar{
+
+    width:260px;
+
+    background:#4338CA;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    padding:20px;
+
+}
+
+/* Logo */
+
+.logo{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+/* Navigation */
+
+nav{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+/* Links */
+
+.nav-link{
+
+    color:white;
+
+    text-decoration:none;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    transition:0.3s;
+
+}
+
+/* Hover */
+
+.nav-link:hover{
+
+    background:rgba(255,255,255,0.2);
+
+}
+
+/* Active Link */
+
+.nav-link.active{
+
+    background:white;
+
+    color:#4338CA;
+
+}
+
+/* Logout Button */
+
+.logout-btn{
+
+    margin-top:40px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#EF4444;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.logout-btn:hover{
+
+    background:#DC2626;
+
+}
